@@ -41,5 +41,8 @@ return [
     //服务列表
     'rpc'           =>  [
         ['name'=>'UserService','authors_name'=>'38923','account'=>'i@yoyoyo.me','ip'=>'172.17.0.3','port'=>8088]
-    ]
+    ],
+
+    //配置文件路径
+    'config_path'   =>  __DIR__."/../config/config.php"
 ];
