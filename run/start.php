@@ -58,13 +58,24 @@ function onConnect(\swoole_server $server, $fd, $from_id)
  */
 function onReceive(\swoole_server $server, int $fd, int $reactor_id, string $data)
 {
+
     //判断消息是否由服务中心推送
     $port = $server->connection_info($fd, $from_id);
 
     if ($port['server_port'] === MYSOA_PORT) {
         RpcClient::rest($data,false);
     }else{
-        #调用对应service
+        // 反序列化请求参数
+        $param = json_decode(substr($data, 4),true);
+
+        // 根据参数去调用相关logic
+        require_once __DIR__."/../service/".$param['service'].".php";
+
+        $Service = new $param['service']();
+        $result = $Service->{$param['method']}($param['param']);
+        $response = json_encode($result);
+        $content = pack('N', $result) . $response;
+        $server->send($fd, $content);
     }
 }
 
