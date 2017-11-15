@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9b89853abda0df0d92f436dd42776432",
+    "packages": [
+        {
+            "name": "mysoa/php-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Barrett-M82A1/mysoa-phpsdk.git",
+                "reference": "03489f83859c9501ada867f4fb8bf01a62ba10cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/Barrett-M82A1/mysoa-phpsdk/03489f83859c9501ada867f4fb8bf01a62ba10cb.zip",
+                "reference": "03489f83859c9501ada867f4fb8bf01a62ba10cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mysoa\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Barrett-M82A1",
+                    "email": "i@yoyoyo.me"
+                }
+            ],
+            "description": "phpsdk",
+            "time": "2017-11-15T01:53:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mysoa/php-sdk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

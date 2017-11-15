@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'mysoa\\' => array($vendorDir . '/mysoa/php-sdk/src'),
 );

@@ -1,1 +1,40 @@
-[]
+[
+    {
+        "name": "mysoa/php-sdk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Barrett-M82A1/mysoa-phpsdk.git",
+            "reference": "03489f83859c9501ada867f4fb8bf01a62ba10cb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/Barrett-M82A1/mysoa-phpsdk/03489f83859c9501ada867f4fb8bf01a62ba10cb.zip",
+            "reference": "03489f83859c9501ada867f4fb8bf01a62ba10cb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "time": "2017-11-15T01:53:40+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "mysoa\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Barrett-M82A1",
+                "email": "i@yoyoyo.me"
+            }
+        ],
+        "description": "phpsdk"
+    }
+]
