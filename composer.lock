@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Barrett-M82A1/mysoa-phpsdk.git",
-                "reference": "03489f83859c9501ada867f4fb8bf01a62ba10cb"
+                "reference": "01d7afad3068389901c1991a034fe90244293e5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/Barrett-M82A1/mysoa-phpsdk/03489f83859c9501ada867f4fb8bf01a62ba10cb.zip",
-                "reference": "03489f83859c9501ada867f4fb8bf01a62ba10cb",
+                "url": "https://files.phpcomposer.com/files/Barrett-M82A1/mysoa-phpsdk/01d7afad3068389901c1991a034fe90244293e5e.zip",
+                "reference": "01d7afad3068389901c1991a034fe90244293e5e",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "phpsdk",
-            "time": "2017-11-15T01:53:40+00:00"
+            "time": "2017-11-15T06:59:20+00:00"
         }
     ],
     "packages-dev": [],
